@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FARDAN.ID — Mobile Legends</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;background:#070b14;color:#f5f7fb}
+nav{position:fixed;z-index:9;top:0;width:100%;padding:18px 7%;display:flex;justify-content:space-between;background:#070b14dd;backdrop-filter:blur(12px);border-bottom:1px solid #1e293b}
+.logo{font-weight:900;letter-spacing:3px}.logo span,h1 span{color:#4fd8ff}nav a{color:#b8c3d5;text-decoration:none;margin-left:24px;font-size:12px}
+.hero{min-height:100vh;padding:120px 7% 60px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;background:radial-gradient(circle at 80% 40%,#15334a,transparent 38%)}
+.tag{color:#4fd8ff;border:1px solid #28516a;border-radius:30px;padding:7px 12px;display:inline-block;font-size:11px;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(55px,9vw,100px);line-height:.9;letter-spacing:-5px;margin:18px 0}
+.hero p{color:#9ba8bc;max-width:560px;font-size:17px;line-height:1.7}
+.btn{display:inline-block;margin-top:18px;padding:13px 20px;background:#4fd8ff;color:#06101a;text-decoration:none;font-weight:bold;border-radius:7px;font-size:12px}
+.player{height:540px;border-radius:22px;overflow:hidden;border:1px solid #26344a;position:relative;background:#101827}
+.player img{width:100%;height:100%;object-fit:cover;opacity:.8}
+.player div{position:absolute;bottom:0;width:100%;padding:25px;background:linear-gradient(transparent,#050912)}
+.player h2{margin:4px 0;font-size:30px}
+section{padding:85px 7%}.title small{color:#4fd8ff;letter-spacing:3px}.title h2{font-size:42px;margin:5px 0 30px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat,.achievement{padding:25px;background:#101827;border:1px solid #243047;border-radius:14px}.stat b{font-size:28px;display:block}.stat span{color:#8997aa;font-size:11px;text-transform:uppercase}
+.favorite{background:#0b111d}.favgrid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.favimg{height:450px;border-radius:20px;overflow:hidden}.favimg img{width:100%;height:100%;object-fit:cover}.fav h3{font-size:55px;margin:8px 0}.fav p,.achievement p{color:#9ba8bc;line-height:1.7}
+.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.badge{padding:8px 12px;background:#172235;border:1px solid #2a3a51;border-radius:7px;font-size:11px}
+.achievements{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.contact{text-align:center;background:linear-gradient(135deg,#102237,#080d17)}.contact h2{font-size:55px;margin:10px 0}.contact p{color:#9ba8bc}
+footer{padding:25px 7%;border-top:1px solid #202b3c;color:#718097;font-size:11px;display:flex;justify-content:space-between}
+@media(max-width:700px){nav{padding:16px 5%}nav a{margin-left:10px;font-size:9px}.hero{grid-template-columns:1fr;padding:105px 5% 50px}.player{height:420px}section{padding:65px 5%}.stats{grid-template-columns:1fr 1fr}.favgrid{grid-template-columns:1fr}.favimg{height:330px}.achievements{grid-template-columns:1fr}.contact h2{font-size:40px}footer{flex-direction:column;gap:8px}}
+</style></head>
+<body>
+<nav><div class="logo">FARDAN<span>.ID</span></div><div><a href="#profile">PROFILE</a><a href="#stats">STATS</a><a href="#hero">HERO</a><a href="#achievements">ACHIEVEMENTS</a></div></nav>
+
+<header class="hero" id="profile">
+<div><span class="tag">Mobile Legends • Pro Player</span><h1>FARDAN<br><span>V i n n t</span></h1><p>Profil pemain Mobile Legends dengan fokus pada gameplay kompetitif, strategi tim, dan push rank.</p><a class="btn" href="#stats">LIHAT PROFILE</a></div>
+<div class="player"><img src="ml1.jpg"><div><small>FARDAN</small><h2>V i n n t</h2><span>Gold Lanner </span></div></div>
+</header>
+
+<section id="stats"><div class="title"><small>PLAYER INFORMATION</small><h2>Profile Stats</h2></div><div class="stats">
+<div class="stat"><b>79★</b><span>Rank Tertinggi</span></div><div class="stat"><b>Mentok Glory</b><span>Peak Rank</span></div><div class="stat"><b>Gold</b><span>Main Role</span></div><div class="stat"><b>WR Diskon</b><span>Win Rate</span></div></div></section>
+
+<section class="favorite" id="hero"><div class="title"><small>MAIN HERO</small><h2>Favorite Hero</h2></div><div class="favgrid">
+<div class="favimg"><img src="ml2.jpg"></div>
+<div class="fav"><span class="tag">All Role</span><h3>Bebas</h3><p>Hero favorit untuk gameplay agresif dan mobilitas tinggi. Cocok untuk rotasi cepat dan memberikan tekanan sejak early game.</p><div class="badges"><span class="badge">Assasin</span><span class="badge">Mage</span><span class="badge">Marksman</span><span class="badge">Fighter</span></div></div>
+</div></section>
+
+<section id="achievements"><div class="title"><small>PLAYER RECORD</small><h2>Achievements</h2></div><div class="achievements">
+<div class="achievement"><b>Peak Rank —Mentok Glory</b><p>Rank tertinggi yang pernah dicapai dalam satu season.</p></div>
+<div class="achievement"><b>Top Kadudapit No 1 Cloude</b><p>Pencapaian leaderboard regional dengan hero andalan.</p></div>
+<div class="achievement"><b>MVP Performance</b><p>Kontribusi dan performa konsisten dalam pertandingan tim.</p></div>
+</div></section>
+
+<section class="contact"><span class="tag">CONNECT</span><h2>Follow The Journey.</h2><p>Highlight gameplay, push rank, dan Joki Mobile Legends.</p><a class="btn" href="https://wa.me/6283848901977" target="_blank">WHATSAPP</a></section>
+<footer><span>© 2026 FARDAN.ID</span><span>Mobile Legends Player Profile</span></footer>
+</body></html>
